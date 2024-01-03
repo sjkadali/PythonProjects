@@ -20,6 +20,7 @@ export const signup = (first_name, last_name, email, password) => async dispatch
     }
     catch(err) {
         const error = {msg: err.response.data, status: err.response.status}
+        console.log(error.msg);
         dispatch({
             type: signupTypes.SIGNUP_FAILURE
         })

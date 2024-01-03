@@ -5,6 +5,8 @@ import Activation from './pages/Activation'
 import PasswordReset from './pages/PasswordReset'
 import PasswordResetConfirm from './pages/PasswordResetConfirm'
 import Home from './pages/Home/Home'
+//import { Provider } from "react-redux";
+//import store from './store';
 
 const App = () => {
   return (
